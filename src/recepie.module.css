@@ -1,0 +1,41 @@
+.recepie{
+    /* whatecer here is not affected by other css files */
+    /* border-radius: 10PX; */
+    /* box-shadow: 0PX 5PX 20PX rgb(71,71,71); */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:white;
+    align-items: center;
+    position: relative;
+  z-index: 1;  
+  flex-wrap: wrap;
+  margin: 40px 0;
+    min-width:40%;
+    position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  margin:15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  overflow: hidden;
+  padding: 10px;
+}
+.image{
+    border-radius:50%;
+    overflow: hidden;
+    height: 30vh;
+    width: 30vh;
+ 
+}
+li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: 0.8em;  
+
+  }
