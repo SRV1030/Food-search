@@ -16,10 +16,10 @@
   border: none;
   padding: 10px;
   margin: 10px;
+  color:rgb(104, 99, 99);
 }
 .search-button{
   background-image: linear-gradient(to right, #434343 0%, black 100%);
-
  
   background-blend-mode: normal, lighten, soft-light;;  
   margin: 10px;

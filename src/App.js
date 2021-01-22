@@ -39,15 +39,18 @@ function App() {
     // if(data.hits !=null) setLoading(true);
     // console.log(recepies);
   };
+
   useEffect(() => {
+    
     getRecepies();
+    // eslint-disable-next-line 
   }, [query]);
 
 
   return (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
-        <input type="text" className="search-bar" value={search} onChange={upDateSearch} />
+        <input type="text" className="search-bar" value={search} onChange={upDateSearch} placeholder="Search food" />
         {/* //value is the value from search state variable. and bu default we have set is "". we add an onChange listener todetech if any change has happend */}
         <button type="submit" className="search-button">Search</button>
       </form>
