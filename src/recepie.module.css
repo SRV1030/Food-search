@@ -13,7 +13,7 @@
   margin: 40px 40px;
     min-width:40%;
     position: relative;
-  width: 50vh;
+  width: 45vh;
   height: 50vw;
   background: rgba(255, 255, 255, 0.05);
  padding:15px;
@@ -44,4 +44,16 @@ li{
     opacity:0.5;
     color: rgb(247, 252, 255);
   }
- 
+  @media only screen and (max-width: 600px) {
+    li{
+      font-size: 0.5 rem;
+    }
+    .recepie{
+      flex-direction: row;
+      height: 100vh;
+    }
+    .image :hover { 
+      transform: scale(1.1,1.1);  
+      transition:0.3s; 
+    }
+  }
